@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Proof title",
+      "file": "Users.xlsx",
+      "report_link": "http://localhost:8000/get-report/1/download",
+      "created_at": "2020-01-27 17:50:45",
+      "updated_at": "2020-01-27 17:50:45"
+    },
+    {
+      "id": 2,
+      "title": "Proof title 2",
+      "file": "Users2.xlsx",
+      "report_link": "http://localhost:8000/get-report/2/download",
+      "created_at": "2020-01-27 17:50:45",
+      "updated_at": "2020-01-27 17:50:45"
+    }
+  ]
+}
