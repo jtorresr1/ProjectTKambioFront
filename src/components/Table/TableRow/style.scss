@@ -1,0 +1,67 @@
+td, th {
+  padding: 1rem 1rem;
+}
+
+.align_left {
+  text-align: start;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.align_right {
+  text-align: end;
+}
+
+.TBody_main{
+  color: #FFFFFF;
+  text-transform: capitalize;
+  position: relative;
+
+  &_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  &_creation{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+  }
+
+  &_action{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+tr .TBody_main:not(:last-child)::after{
+  background-color: #C4C4C4;
+  content: '';
+  height: 60%;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 0.35rem;
+}
+
+tr + tr {
+  border-bottom: 0.1rem solid #C4C4C4;
+  border-top: 0.1rem solid #C4C4C4;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.imageHref{
+  margin-left: 0.8rem;
+  width: 0.8rem;
+}

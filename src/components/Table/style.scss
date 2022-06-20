@@ -1,0 +1,67 @@
+td, th {
+  padding: 0.5rem 0.5rem;
+}
+
+.table_div{
+  background: #4563E6;
+  border-radius: 0.6rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+
+.table_main{
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 1rem;
+
+  &_Theader{
+    border-bottom: 0.3rem solid #C4C4C4;
+    align-self: stretch;
+  }
+
+  &_Ttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+  }
+
+  &_Tbody{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    & tr:last-of-type {
+      border-bottom: none;
+    }
+
+    & tr:first-of-type {
+      border-top: none;
+    }
+  }
+}
+
+
+
+.align_left {
+  text-align: start;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.align_right {
+  text-align: end;
+}
