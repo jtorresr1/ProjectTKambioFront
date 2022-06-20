@@ -1,14 +1,16 @@
 <template>
-  <headerMain />
+  <div>
+    <PageMain />
+  </div>
 </template>
 
 <script>
-import headerMain from "@/components/Header/Header";
+import PageMain from "@/components/Page"
 
 export default {
   name: 'App',
   components: {
-    headerMain,
+    PageMain,
   },
 
 

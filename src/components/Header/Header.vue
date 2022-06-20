@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header_main">
-      <img alt="Vue logo" src="@/assets/logo-TKambio.svg">
+      <img alt="Tkambio logo" src="@/assets/logo-TKambio.svg">
     </div>
   </header>
 </template>
