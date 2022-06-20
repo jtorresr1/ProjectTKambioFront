@@ -9,7 +9,7 @@
       </tr>
       </thead>
       <tbody class="table_main_Tbody">
-      <TableRow v-for="report in reports" :key="report.id" :report-data="report"/>
+      <TableRow v-for="report in reports" :key="report.id" :reportData="report"/>
       </tbody>
     </table>
   </div>
