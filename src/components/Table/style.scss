@@ -1,9 +1,11 @@
+@import "@/scss/helperVariables.scss";
+
 td, th {
   padding: 0.5rem 0.5rem;
 }
 
 .table_div{
-  background: #4563E6;
+  background: $blue_90;
   border-radius: 0.6rem;
   padding: 1rem 2rem 1rem 2rem;
   margin-top: 5rem;
@@ -19,7 +21,7 @@ td, th {
   padding: 1rem;
 
   &_Theader{
-    border-bottom: 0.3rem solid #C4C4C4;
+    border-bottom: 0.3rem solid $gray_77;
     align-self: stretch;
   }
 
@@ -28,7 +30,7 @@ td, th {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.2rem;
-    color: #FFFFFF;
+    color: $white;
   }
 
   &_Tbody{
