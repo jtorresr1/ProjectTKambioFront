@@ -1,3 +1,4 @@
+@import "@/scss/helperVariables.scss";
 
 .modal-wrapper {
   display: flex;
@@ -17,7 +18,7 @@
   align-items: center;
   padding: 2rem 1.5rem 1.8rem;
   position: absolute;
-  background: #FFFFFF;
+  background: $white;
   box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
   border-radius: 0.8rem;
 }
@@ -32,7 +33,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #181818;
+    color: $black_9;
   }
 
   &_textDescription{
@@ -44,7 +45,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #565656;
+    color: $gray_33;
   }
 
 }
@@ -74,7 +75,7 @@
         font-size: 0.9rem;
         line-height: 1rem;
         letter-spacing: 0.25px;
-        color: #696969;
+        color: $gray_41;
 
       }
     }
@@ -84,11 +85,11 @@
       font-weight: 300;
       font-size: 0.9rem;
       line-height: 1.1rem;
-      color: #696969;
+      color: $gray_41;
       position: absolute;
       top: -0.5rem;
       left: 1rem;
-      background: #FFFFFF;
+      background: $white;
       padding-right: 0.4rem;
       padding-left: 0.1rem;
     }
@@ -99,7 +100,7 @@
       font-weight: 300;
       font-size: 0.9rem;
       line-height: 1.1rem;
-      color: #696969;
+      color: $gray_41;
     }
 
     &_container{
@@ -122,7 +123,7 @@
         font-size: 0.9rem;
         line-height: 1rem;
         letter-spacing: 0.25px;
-        color: #696969;
+        color: $gray_41;
 
       }
     }
@@ -143,7 +144,7 @@
       display: flex;
       align-items: center;
       text-align: center;
-      color: #181818;
+      color: $black_9;
     }
     &_button{
       display: flex;
@@ -157,11 +158,11 @@
     }
 
     &_buttonDisabled{
-      background: #CFCFCF;
+      background: $gray_81;
     }
 
     &_buttonEnabled{
-      background: #FFBE12;
+      background: $yellow_93;
     }
   }
 
