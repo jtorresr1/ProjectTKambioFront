@@ -12,3 +12,31 @@
 
   color: #181818;
 }
+
+
+.button_generate{
+  padding: 1rem 3.5rem;
+  background: #FFBE12;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 4.2rem;
+  border: none;
+
+  &_text{
+    font-style: normal;
+    font-weight: 520;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey-Complementary-4/900 */
+
+    color: #181818;
+  }
+  &:hover{
+    background: #FFAF20;
+  }
+}
