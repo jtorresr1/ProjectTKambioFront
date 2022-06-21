@@ -1,3 +1,5 @@
+@import "@/scss/helperVariables.scss";
+
 td, th {
   padding: 1rem 1rem;
 }
@@ -15,7 +17,7 @@ td, th {
 }
 
 .TBody_main{
-  color: #FFFFFF;
+  color: $white;
   text-transform: capitalize;
   position: relative;
 
@@ -43,7 +45,7 @@ td, th {
 }
 
 tr .TBody_main:not(:last-child)::after{
-  background-color: #C4C4C4;
+  background-color: $gray_77;
   content: '';
   height: 60%;
   position: absolute;
@@ -53,8 +55,8 @@ tr .TBody_main:not(:last-child)::after{
 }
 
 tr + tr {
-  border-bottom: 0.1rem solid #C4C4C4;
-  border-top: 0.1rem solid #C4C4C4;
+  border-bottom: 0.1rem solid $gray_77;
+  border-top: 0.1rem solid $gray_77;
 }
 
 a:link {

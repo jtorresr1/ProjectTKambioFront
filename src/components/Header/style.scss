@@ -1,3 +1,5 @@
+@import "@/scss/helperVariables.scss";
+
 .header_main{
   display: flex;
   flex-direction: row;
@@ -7,6 +9,6 @@
 
   /* Gradient */
 
-  background: linear-gradient(180deg, #02ADF1 -2.37%, #4562E6 124.84%, #4563E6 124.84%);
+  background: linear-gradient(180deg, $skyBlue_99 -2.37%, $skyBlue_70 124.84%, $skyBlue_70 124.84%);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
