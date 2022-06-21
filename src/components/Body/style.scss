@@ -1,3 +1,5 @@
+@import "@/scss/helperVariables.scss";
+
 .body_main{
   align-items: center;
   flex-direction: column;
@@ -10,13 +12,13 @@
   line-height: 2.5rem;
   padding-top: 2em;
 
-  color: #181818;
+  color: $black_9;
 }
 
 
 .button_generate{
   padding: 1rem 3.5rem;
-  background: #FFBE12;
+  background: $yellow_93;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   border-radius: 4.2rem;
   border: none;
@@ -34,9 +36,9 @@
 
     /* Grey-Complementary-4/900 */
 
-    color: #181818;
+    color: $black_9;
   }
   &:hover{
-    background: #FFAF20;
+    background: $yellow_87;
   }
 }
